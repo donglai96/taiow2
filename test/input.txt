@@ -1,0 +1,41 @@
+# background magnetic field strength (Gauss)
+B0: 3.41072e-3
+# density in cm^-3
+n0: 2.540578
+# number of charged particles
+Np: 400
+# initial pitchangle, in the range of [90, 180]. e.g. 160 -> 20, 170->10
+pitch_angle_degree: 170
+# initial energy, in unit of keV, if less then 0 then use resonance condition to solve the energy
+energy_keV: -1
+# length of run in gyroperiod (relativistic)
+t_total_num: 200
+# how many step make one record
+record_num: 250
+# timestep in gyroperiod
+dt_num: 0.002
+# resonant frequency in gyrofrequency
+w_res_num: 0.35
+# maximum B frequency in gyrofrequency
+w_max_num: 0.35
+# lower cutoff and upper cutoff
+w_lc_num: 0.225
+w_uc_num: 0.475
+# wave frequency width, this para only works when the wave distribution set as Guassian
+w_width_num: 0.15
+# The number of wave frequency
+nw: 200
+# z range in units of res wave length
+dz_num: 20000
+# wave amplitude in Gauss (Bw,j = Bw / sqrt(nw))
+Bw: 1e-6
+# wave distribution, support Constant and Guassian and Larry
+wave_distribution: Larry
+# resonance order
+nres: -1
+# wave normal angle minimum (X = tan(theta))
+X_min: -1
+# wave normal angle maximum (X = tan(theta))
+X_max: 1
+# number of wave normal angle
+nX: 200
