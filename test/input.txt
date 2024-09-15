@@ -38,4 +38,6 @@ X_min: -1
 # wave normal angle maximum (X = tan(theta))
 X_max: 1
 # number of wave normal angle
-nX: 200
+nX: 20
+# wave normal angle in degree，in this version, this is used for calculating resonance energy
+res_psi0: 0
